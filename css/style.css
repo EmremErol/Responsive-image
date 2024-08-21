@@ -1,0 +1,153 @@
+html{
+   width:100%;
+   height:100%;
+   margin:0;
+   padding:0;
+   direction:ltr;
+   overflow-x: hidden;
+   overflow-y:scroll;
+}
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    border:none;
+    outline:0;
+}
+#cerceveAlani{
+	display:block;
+	width:100%;
+	min-width:100%;
+	max-width:100%;
+	margin:0 auto;
+	padding:0;
+	border:none;
+	outline:none;
+	background-color:#fff;
+	vertical-align:top;
+	text-align:center;
+
+}
+ 
+#cerceveAlani img{
+    margin:0 auto;
+    padding:0;
+    border:none;
+    outline:none;
+}
+@media only screen and (min-width:1200px){
+    #cerceveAlani img#gorsel1{
+        display: block;
+        width:278px;
+        min-width:278px;
+        max-width:278px;
+        height:181px;
+        min-height:181px;
+        max-height:181px;
+    }   
+    #cerceveAlani img#gorsel2{
+        display:none;
+    }
+    #cerceveAlani img#gorsel3{
+        display:none;
+    }
+    #cerceveAlani img#gorsel4{
+        display:none;
+    }
+    #cerceveAlani img#gorsel5{
+        display:none;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    #cerceveAlani img#gorsel2{
+        display: block;
+        width:298px;
+        min-width:298px;
+        max-width:298px;
+        height:169px;
+        min-height:169px;
+        max-height:169px;
+    }   
+    #cerceveAlani img#gorsel1{
+        display:none;
+    }
+    #cerceveAlani img#gorsel3{
+        display:none;
+    }
+    #cerceveAlani img#gorsel4{
+        display:none;
+    }
+    #cerceveAlani img#gorsel5{
+        display:none;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    #cerceveAlani img#gorsel3{
+        display: block;
+        width:311px;
+        min-width:311px;
+        max-width:311px;
+        height:162px;
+        min-height:162px;
+        max-height:162px;
+    }   
+    #cerceveAlani img#gorsel1{
+        display:none;
+    }
+    #cerceveAlani img#gorsel2{
+        display:none;
+    }
+    #cerceveAlani img#gorsel4{
+        display:none;
+    }
+    #cerceveAlani img#gorsel5{
+        display:none;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    #cerceveAlani img#gorsel4{
+        display: block;
+        width:311px;
+        min-width:311px;
+        max-width:311px;
+        height:162px;
+        min-height:162px;
+        max-height:162px;
+    }   
+    #cerceveAlani img#gorsel1{
+        display:none;
+    }
+    #cerceveAlani img#gorsel2{
+        display:none;
+    }
+    #cerceveAlani img#gorsel3{
+        display:none;
+    }
+    #cerceveAlani img#gorsel5{
+        display:none;
+    }
+}
+@media only screen and  (max-width:575px){
+    #cerceveAlani img#gorsel5{
+        display: block;
+        width:311px;
+        min-width:311px;
+        max-width:311px;
+        height:162px;
+        min-height:162px;
+        max-height:162px;
+    }   
+    #cerceveAlani img#gorsel1{
+        display:none;
+    }
+    #cerceveAlani img#gorsel2{
+        display:none;
+    }
+    #cerceveAlani img#gorsel4{
+        display:none;
+    }
+    #cerceveAlani img#gorsel3{
+        display:none;
+    }
+}
